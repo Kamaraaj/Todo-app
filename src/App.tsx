@@ -8,6 +8,7 @@ const App:React.FC=()=> {
   const [todo, setTodo] = useState<string>("");
   const [todos, setTodos] = useState<model[]>([]);
    
+  //Form value set into the todos on form submission  
   const handleInputFieldSumbission = (e: React.FormEvent)=>{
     e.preventDefault();
     let todoText = todo
