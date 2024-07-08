@@ -1,0 +1,42 @@
+.single-todo-container{
+    padding: 20px;
+    margin-top: 15px;
+    background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 24px;
+}
+.single-todo-form {
+    width: 100%;
+}
+.single-todo-desc{
+    width:80%;
+    text-overflow: clip;
+    font-size: 16px;
+
+}
+.single-todo-desc-input{
+    border-radius: 4px;
+    padding: 8px 12px;
+    height: 26px;
+    width:100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.single-todo-btn-grp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 8px;
+}
+.single-todo-container button{
+    padding:4px 8px ;
+    border-radius: 4px;
+    border:1px solid white;
+    background-color: skyblue;
+    font-size: 14px;
+    font-weight: 500;
+}
